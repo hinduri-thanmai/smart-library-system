@@ -1,13 +1,7 @@
 # Smart Library System
 
-![Java](https://img.shields.io/badge/Java-17-orange)
-![Spring Boot](https://img.shields.io/badge/SpringBoot-Framework-brightgreen)
-![React](https://img.shields.io/badge/React-Frontend-blue)
-![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
 
-A full-stack Library Management System designed to manage books, members, and lending workflows through a scalable Spring Boot REST API and React frontend.
-
-This application demonstrates real-world backend architecture, API design, and frontend integration using modern technologies.
+LibTrack is a modern full-stack library automation platform built to streamline book inventory, member records, and borrowing workflows using Spring Boot, React, and MySQL.
 
 ---
 
