@@ -1,4 +1,4 @@
-# Library Management System
+# Smart Library System
 
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-Framework-brightgreen)
