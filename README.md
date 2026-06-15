@@ -7,7 +7,7 @@ LibTrack is a modern full-stack library automation platform built to streamline 
 
 # 🚀 Overview
 
-The Library Management System enables librarians and administrators to efficiently manage:
+LibTrack enables librarians and administrators to efficiently manage:
 
 - Book inventory
 - Library members
@@ -25,7 +25,7 @@ This project highlights how modern applications integrate:
 
 # 📌 Project Status
 
-This project was created to practice **full-stack development using React and Spring Boot**.
+This project is designed as a scalable full-stack library automation solution focused on managing books, members, and lending workflows.
 
 It currently supports CRUD operations for:
 
@@ -145,13 +145,13 @@ Swagger allows you to:
 
 The application is organized into **three modules**:
 
-### `libraryms-app-data`
+### `backend-data`
 Contains **JPA entities and persistence logic**.
 
-### `libraryms-app-rest`
+### `backend-api`
 Spring Boot **REST API** exposing endpoints for books and members.
 
-### `libraryms-app-web`
+### `frontend-web`
 React frontend that communicates with the backend API.
 
 ---
@@ -161,7 +161,7 @@ React frontend that communicates with the backend API.
 ## 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/kayanr/LibraryManagementSystemApp.git
+git clone https://github.com/hinduri-thanmai/smart-library-system.git
 ````
 
 ---
@@ -171,7 +171,7 @@ git clone https://github.com/kayanr/LibraryManagementSystemApp.git
 Create the database:
 
 ```sql
-CREATE DATABASE libraryms_db;
+CREATE DATABASE libtrack_db;
 ```
 
 Update database credentials in:
@@ -210,35 +210,15 @@ Frontend runs at:
 ```
 http://localhost:3000
 ```
-
+---
 ---
 
-# 📷 Screenshots
+# Future Scope
 
-<p align="center">
-  <img src="Screenshots/BookList.jpg" width="45%">
-  <img src="Screenshots/AddBook.jpg" width="45%">
-</p>
-
-<p align="center">
-  <img src="Screenshots/UpdateForm.jpg" width="45%">
-</p>
-
----
-
-# 📚 Future Improvements
-
-Planned enhancements include:
-
-• Upgrade to **react-scripts v5** and **React 18** (removes Node 17+ OpenSSL workaround)
-• Replace welcome page with a **live stats dashboard**
-• Group navigation into **entity dropdowns** (Books / Members / Loans)
-• Highlight **overdue loans** in the loan list
-• Add **global error handling** via `@ControllerAdvice`
-• Add **member authentication and user roles**
-• Implement **search and pagination**
-• Upgrade to **react-router-dom v6** and **react-bootstrap v2**
-• Containerize the application using **Docker**
-• Deploy the system to **cloud infrastructure**
+• Role-based access for admins and members  
+• Book reservation system  
+• Fine calculation for overdue books  
+• Email notifications for due dates  
+• Analytics dashboard
 
 ---
